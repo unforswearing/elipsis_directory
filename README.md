@@ -46,7 +46,7 @@ After sourcing your bash profile (or whever your PS1 variable is stored), the pa
 
 ### Caveats / Warning
 
-- You will need to include your entire `PS1` variable in the `ellipsis_directory_reload()` command. A live example from my bash environment file:
+Depending how your environment is set up you may need to include your entire `PS1` variable in the `ellipsis_directory_reload()` command. A live example from my bash environment file:
 
 ```bash
 nozero() { date +%r | sed 's/\:[0-9]*//2;s/^0//g'; }
