@@ -11,10 +11,10 @@ dependencies
 usage
 
 ```bash
-elipsis_directory.lua <depth>
+ellipsis_directory.lua <depth>
 
 # for example: this command
-elipsis_directory.lua 4
+ellipsis_directory.lua 4
 
 # shortens this path
 # ~/Documents/Shared/Scripts/Projects/website/html/photos
@@ -28,7 +28,7 @@ for this to work, it is necessary to add the following to your PS1 environtment 
 
 ```bash
 export PS1+=" \[\e[31m\][\[\e[m\]\[\e[31m\]"
-export PS1+="$(elipsis_directory.lua 4)"
+export PS1+="$(ellipsis_directory.lua 4)"
 export PS1+="\[\e[m\]\[\e[31m\]]\[\e[m\] \n-> "
 
 ```
@@ -43,4 +43,4 @@ after sourcing your bash profile (or whever your PS1 variable is stored), the pa
 
 note
 
-an observant reader will realize that `..` is not actually an elipsis.
+an observant reader will realize that `..` is not actually an ellipsis.
