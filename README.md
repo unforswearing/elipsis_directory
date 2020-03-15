@@ -20,17 +20,15 @@ ellipsis_directory.lua 4
 # ~/Documents/Shared/Scripts/Projects/website/html/photos
 
 # to this one
-#~/Documents/Shared/../../../html/photos
+# ~/Documents/Shared/../../../html/photos
 
 ```
 
 for this to work, it is necessary to add the following to your PS1 environtment variable
 
 ```bash
-export PS1+=" \[\e[31m\][\[\e[m\]\[\e[31m\]"
+# insert the command whenever needed in your PS1
 export PS1+="$(ellipsis_directory.lua 4)"
-export PS1+="\[\e[m\]\[\e[31m\]]\[\e[m\] \n-> "
-
 ```
 
 after sourcing your bash profile (or whever your PS1 variable is stored), the path should look like the following (as seen in the example above)
