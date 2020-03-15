@@ -8,10 +8,9 @@ dependencies
 
 <br><br>
 
-usage
+`usage: ellipsis_directory.lua <depth>`
 
 ```bash
-ellipsis_directory.lua <depth>
 
 # for example: this command
 ellipsis_directory.lua 4
