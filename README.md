@@ -6,7 +6,7 @@ dependencies
 
 - luafilesystem (`luarocks luafilesystem`)
 
-<br>
+<br><br>
 
 usage
 
@@ -16,7 +16,7 @@ elipsis_directory.lua <depth>
 # for example: this command
 elipsis_directory.lua 4
 
-# which shortens this path
+# shortens this path
 # ~/Documents/Shared/Scripts/Projects/website/html/photos
 
 # to this one
@@ -40,4 +40,7 @@ after sourcing your bash profile (or whever your PS1 variable is stored), the pa
 ```
 
 <br><br>
-(an observant reader will realize that `..` is not actually an elipsis.)
+
+note
+
+an observant reader will realize that `..` is not actually an elipsis.
