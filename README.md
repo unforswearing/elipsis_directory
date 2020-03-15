@@ -40,4 +40,4 @@ after sourcing your bash profile (or whever your PS1 variable is stored), the pa
 
 note
 
-an observant reader will realize that `..` is not actually an ellipsis.
+an observant reader will notice that `..` is not actually an ellipsis.
