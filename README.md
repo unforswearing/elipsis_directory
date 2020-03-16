@@ -2,6 +2,10 @@
 
 A quick hack to insert `..` into long paths for easy viewing in my terminal.
 
+> Why Lua?
+
+I use a lot of Bash and wanted to learn a little more about Lua.
+
 <br>
 
 ## Dependencies
